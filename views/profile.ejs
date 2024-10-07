@@ -1,0 +1,39 @@
+<%- include('partial/header') %>
+
+<section class="container mx-auto pt-20 flex flex-col gap-5">
+  <div class="flex justify-center items-center space-y-4 gap-3">
+    <div class="w-24 h-24 rounded-full">
+        <img class="w-24 h-24 rounded-full object-cover" src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/01/12/16735402991293.jpg" alt="">
+    </div>
+    <div class="text-center ">
+      <h2 class="text-lg font-semibold">Robert Downey Jr.</h2>
+      <br>
+      <ul class="flex justify-center items-center gap-4">
+        <li>Post</li>
+        <li>Followers</li>
+        <li>Following</li>
+      </ul>
+      <ul class="flex justify-center items-center gap-10">
+        <li>557</li>
+        <li>80M</li>
+        <li>78</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex justify-center items-center gap-10">
+    <button class="bg-blue-400 hover:bg-blue-500 text-white font-bold py-1 px-6 rounded-md">Follow</button>
+    <button class="bg-blue-400 hover:bg-blue-500 text-white font-bold py-1 px-5 rounded-md">Message</button>
+    <button class="bg-blue-400 hover:bg-blue-500 text-white font-bold py-1 px-5 rounded-md">Logout</button>
+ 
+  </div>
+
+  <!-- Posts Grid -->
+  <div class="grid grid-cols-3 gap-2 mt-6">
+    <div class="bg-gray-300 h-32"></div>
+    <div class="bg-gray-300 h-32"></div>
+    <div class="bg-gray-300 h-32"></div>
+  </div>
+</section>
+
+<%- include('partial/footer') %>
