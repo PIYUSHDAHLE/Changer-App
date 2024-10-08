@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
 *{
 margin: 0;
 padding: 0;
@@ -33,6 +35,11 @@ width: 100%;
     color: var(--pink);
   }
   
+  header a{
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 2.5rem;
+
+  }
 
   /*css of login page,register page and forget-password page*/
   .containers {
@@ -153,19 +160,45 @@ width: 100%;
 
 
 
-/* CSS OF PROFILE PAGE */
-  
-  /* Responsive Design */
   @media (max-width: 768px) {
-    .container {
-      padding: 10px;
+    .form-box {
+      width: 70%;
+      padding: 20px;
     }
   
-    .form-box {
-      padding: 20px;
+    .additional-links {
+      flex-direction: column;
+      gap: 1rem;
     }
   }
   
+  @media (max-width: 480px) {
+    .form-box {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .form-box h2 {
+      font-size: 20px;
+    }
+  
+    .input-group label, .input-group input {
+      font-size: 14px;
+    }
+  
+    .btn {
+      font-size: 14px;
+    }
+  
+    .google {
+      font-size: 14px;
+    }
+  
+    .additional-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
 
   /* footer page code */
 
